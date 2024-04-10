@@ -13,9 +13,11 @@ function ganhoGastos() {
         console.log(somatorioGastos)
     };
     if (somatorioGanhos > somatorioGastos) {
-        texto = "Sua empresa saiu no lucro"
+        texto = "Sua empresa saiu no lucro!"
+    } else if (somatorioGanhos = somatorioGastos){
+        texto = "Sua empresa não saiu no lucro nem no prejuizo.";
     } else {
-        texto = "Sua empresa saiu no prejuízo"
+        texto = "Sua empresa saiu no prejuízo!";
     };
     console.log("Os ganhos da sua empresa foram: " + somatorioGanhos);
     console.log("Os gastos da sua empresa foram: " + somatorioGastos);
